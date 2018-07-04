@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  number: 1
+  date_of_issue: 2016-07-07
+  total: 1.5
+
+two:
+  number: 1
+  date_of_issue: 2016-07-07
+  total: 1.5

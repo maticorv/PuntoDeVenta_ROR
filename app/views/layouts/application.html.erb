@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PDV</title>
+    <%= csrf_meta_tags %>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+	<nav class="be-blue white large-padding">
+		<ul class="no-list row center-xs middle-xs">
+			<li class="col-md">
+  				<h1> <%=link_to "Heuristic", root_path %> </h1>
+			</li>
+			<li class="col-md">
+				<h2> <%=link_to "Articulos", articles_path %> </h2>
+			</li>
+			<li class="col-md">
+				Clientes
+			</li>
+			<li class="col-md">
+				Venta
+			</li>
+  	</nav>
+    <%= yield %>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Cost:</strong>
+  <%= @lote.cost %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @lote.quantity %>
+</p>
+
+<%= link_to 'Edit', edit_lote_path(@lote) %> |
+<%= link_to 'Back', lotes_path %>
